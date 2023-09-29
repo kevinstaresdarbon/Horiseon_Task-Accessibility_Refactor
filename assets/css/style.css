@@ -37,7 +37,7 @@ body {
 }
 
 /* Keeping this as it appears to be the simplest way to achieve the effect */
-.header div ul li {
+#header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
