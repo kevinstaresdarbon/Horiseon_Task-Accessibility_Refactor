@@ -97,22 +97,10 @@ p {
     background-color: #2589bd;
 }
 
-
-.benefit-lead {
+.benefit-item {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
 
 .benefit-h3-style{
     margin-bottom: 10px;
@@ -125,14 +113,12 @@ p {
     max-width: 150px;
 }
 
-
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
 
 /* Tailwind style helper classes organised below here */
 
