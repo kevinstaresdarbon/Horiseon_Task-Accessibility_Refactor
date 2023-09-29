@@ -66,6 +66,12 @@ p {
     background-position: center;
 }
 
+.pane {
+    height: 960px;
+    width: auto;
+    margin: 0px 12px 0px 12px;
+}
+
 .content {
     width: 75%;
     display: inline-block;
@@ -88,11 +94,12 @@ p {
 
 .benefits {
     margin-right: 20px;
+    margin-bottom: 20px;
     padding: 20px;
     clear: both;
     float: right;
     width: 20%;
-    height: 100%;
+    height: 940px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
