@@ -16,6 +16,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color:#c41750;
+}
+
 p {
     font-size: 16px;
 }
@@ -49,6 +53,10 @@ p {
 
 #nav-links {
     list-style-type: none;
+}
+
+#header div ul li:hover {
+    color: darkgrey;
 }
 
 /* nav-link : Keeping this {converted class to id} as it appears to be the simplest way to achieve the effect on all the nav list items*/
