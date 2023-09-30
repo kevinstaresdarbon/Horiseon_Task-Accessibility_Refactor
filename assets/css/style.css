@@ -67,7 +67,7 @@ p {
     margin-left: 25px;
 }
 
-/* Tidied up the stylings here.  background-image, background-size are no longer applicable as the class is now applied to an img tag*/
+/* Tidied up the stylings here.  background-image, background-size are no longer applicable as the hero class is now applied to an img tag*/
 .hero {
     height: 800px;
     width: 100%;
@@ -75,7 +75,7 @@ p {
     z-index: -1;
 }
 
-/*  container stylings added here to make the page appear better lined up and omproved the balancing of the margins around the content and aside; easier on the eye  */
+/*  container stylings added here to make the page appear better lined up and improved the balancing of the margins around the content and aside; easier on the eye  */
 .pane {
     height: 960px;
     width: auto;
@@ -139,7 +139,7 @@ p {
     max-width: 150px;
 }
 
-/* changed to footer selector from class to an id so that it has a consistent coding style with the header*/
+/* changed the footer selector from class to id so that it has a consistent coding style with the header*/
 #footer {
     padding: 30px;
     clear: both;
