@@ -35,7 +35,8 @@ and then drag the index.html into your browser's url bar to run it in your brows
 The starter code at the initial commit, including the image files, HTML and CSS, was provided by the staff of edX.  
 All commits after that is a refactor of the original code push by myself.  No collaboration was needed or taken on this repository and code.
 
-I added the favicon.ico file myself but generated it using this site: https://www.icoconverter.com/  The site is self-explanatory and easy to use.
+I added the favicon.ico file myself but generated it using the image from this page: https://www.iconarchive.com/show/essential-toolbar-icons-by-fasticon/find-icon.html
+and converted it to an .ico using this site: https://www.icoconverter.com/  The site is self-explanatory and easy to use.
 
 The template and advice for this README was taken from this site: https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
 
