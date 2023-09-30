@@ -5,7 +5,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    opacity: 95%;
+    opacity: 96%;
 }
 
 /* Changed to a muted pastel grey-blue to make the page less glaring to the eye in the margins*/
@@ -88,7 +88,7 @@ p {
     margin-left: 20px;
 }
 
-/*  Consolidated three blocks into this one class*/
+/*  Consolidated three blocks into this one class and added a slight 4px border-radius to soften the feel of the containing background  */
 .card-style {
     margin-bottom: 20px;
     padding: 50px;
@@ -96,6 +96,7 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    border-radius: 4px;
 }
 
 /* Consolidated three blocks into this one class*/
@@ -104,7 +105,8 @@ p {
     font-size: 36px;
 }
 
-/*  Adjusted the height field to a fixed height in px so that it always lines up nicely with content section */
+/*  Adjusted the height field to a fixed height in px so that it always lines up nicely with content section 
+    and added a slight 4px border-radius to soften the feel of the containing background  */
 .benefits {
     margin-right: 20px;
     margin-bottom: 20px;
@@ -115,6 +117,7 @@ p {
     height: 940px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
+    border-radius: 4px;
 }
 
 /* Consolidated three blocks into this one class*/
