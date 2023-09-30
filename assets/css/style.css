@@ -1,4 +1,4 @@
-/* Element selectors */
+/* Element selectors re-arranged to appear together at the top of the css file*/
 
 * {
     box-sizing: border-box;
@@ -10,12 +10,13 @@ body {
     background-color: #d9dcd6;
 }
 
-
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* added this block with a pseudo-selector to give some nice visual feedback when hovering over the link anchors.3
+   Paid specific attention to the colour to ensure it was well contrasted with the header background, was easy to read and maintained the pastel style for the colourings*/
 a:hover {
     color:#c41750;
 }
@@ -24,9 +25,8 @@ p {
     font-size: 16px;
 }
 
-
 /* styles arranged to be concordant with the html layout */
-
+/* styles here changed to target ids to make the selctors easier to understand and named to be more informative of their divs function */
 #header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -55,25 +55,20 @@ p {
     list-style-type: none;
 }
 
-#header div ul li:hover {
-    color: darkgrey;
-}
-
 /* nav-link : Keeping this {converted class to id} as it appears to be the simplest way to achieve the effect on all the nav list items*/
 #header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Tidied up the stylings here.  background-image, background-size are no longer applicable as the class is now applied to an img tag*/
 .hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
 }
 
+/*  container stylings added here to make the page appear better lined up and omproved the balancing of the margins around the content and aside; easier on the eye  */
 .pane {
     height: 960px;
     width: auto;
@@ -86,6 +81,7 @@ p {
     margin-left: 20px;
 }
 
+/*  Consolidated three blocks into this one class*/
 .card-style {
     margin-bottom: 20px;
     padding: 50px;
@@ -95,11 +91,13 @@ p {
     color: #ffffff;
 }
 
+/* Consolidated three blocks into this one class*/
 .h2-style {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/*  Adjusted the height field to a fixed height in px so that it always lines up nicely with content section */
 .benefits {
     margin-right: 20px;
     margin-bottom: 20px;
@@ -112,23 +110,27 @@ p {
     background-color: #2589bd;
 }
 
+/* Consolidated three blocks into this one class*/
 .benefit-item {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Consolidated three blocks into this one class*/
 .benefit-h3-style{
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Consolidated three blocks into this one class*/
 .benefit-img-style{
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.footer {
+/* changed to footer selector from class to an id so that it has a consistent coding style with the header*/
+#footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -136,7 +138,6 @@ p {
 }
 
 /* Tailwind style helper classes organised below here */
-
 .float-left {
     float: left;
     margin-right: 25px;
@@ -147,10 +148,10 @@ p {
     margin-left: 25px;
 }
 
-.max-height-200 {
-    max-height: 200px;
-}
-
 .font-size-20{
     font-size: 20px;
+}
+
+.max-height-200 {
+    max-height: 200px;
 }

@@ -4,12 +4,15 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
+    <!--  Added a nice little magnifying glass favicon and updated the title element to the company name so that the tab looks better-->
     <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
     <title> Horiseon </title>
 </head>
 
 <body>
 
+    <!-- Added id attributes as necessay for cleaner css targetting on several unique elements below and did my best to name the id's for improved semantics-->
+    <!-- Changed the div with a header class to a header element with a header id for cleaner css targetting and improved semantics-->
     <header id="header">
         <h1 id="header-splash" alt="Horiseon">Hori<span id="seo-style">seo</span>n</h1>
         <div id="nav-card">
@@ -27,10 +30,15 @@
         </div>
     </header>
 
-    <div class="hero" alt="four office staff considering documents on an office table"></div>
+    <!-- It could be ignored but i felt an alt-text here was appropriate.I changed the div to an img element with a correctly applied src, class and alt attributes and updated the css -->
+    <img src="./assets/images/digital-marketing-meeting.jpg" class="hero" alt="four office staff considering documents at an office table"></div>
     
+    <!-- Added the pane div to containerize the content section and aside to allow for a nice, clean fix to the html so the margins are better balanced and the elements line through nicer-->
     <div class="pane">
+        <!--  Changed the div's here to section and article tags to be more semantically correct-->
         <section class="content">
+            <!-- Added the id="search-engine-optimization" to fix the link in the a tag above so it jumps through the page to here correctly-->
+            <!-- Added image alt-text for accessibility and applied the consolidated h2-style and card-style classes across all three articles-->
             <article class= "card-style" id="search-engine-optimization">
                 <img src="./assets/images/search-engine-optimization.jpg" class="float-left max-height-200" alt="An office desk showing a notepad that brainstorms concepts around s e o"/>
                 <h2 class="h2-style">Search Engine Optimization</h2>
@@ -59,7 +67,11 @@
                 </p>
             </article>
         </section>
+
+        <!-- changed the div element here for a more meaningful aside tag -->
         <aside class="benefits">
+         <!--   updated the classes here to the consolidated benefit-item, benefit-h3-style and benefit-img-style.
+                but applied id fields to ensure the understanding of each div's differences {lead, brand, cost} and applied alt attributes to the images in the aside   -->
             <div class="benefit-item" id="lead">
                 <h3 class="benefit-h3-style">Lead Generation</h3>
                 <img class="benefit-img-style" src="./assets/images/lead-generation.png" alt="A cog funneled through a filter turning into a coin with a dollar sign on"/>
@@ -87,7 +99,8 @@
         </aside>
     </div>
 
-    <footer class="footer">
+    <!-- changed the div with a footer class to a semantic footer element and applied an id field to be consistent with the header so that header and footer css stylings are consistent also-->
+    <footer id="footer">
         <h2 class="font-size-20">Made with ❤️️ by Horiseon</h2>
         <p>
             &copy; 2019 Horiseon Social Solution Services, Inc.
