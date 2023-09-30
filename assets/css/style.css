@@ -22,7 +22,7 @@ a {
 /* added this block with a pseudo-selector to give some nice visual feedback when hovering over the link anchors. 
    Paid specific attention to the colour to ensure it was well contrasted with the header background, was easy to read and maintained the pastel style for the header colourings*/
 a:hover {
-    color:#ff0000;
+    color:#b863fd;
 
 }
 
