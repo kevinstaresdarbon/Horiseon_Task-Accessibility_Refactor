@@ -1,24 +1,29 @@
 /* Element selectors re-arranged to appear together at the top of the css file*/
 
+/* added a 95% opacity to tone down the glare in the images and give a more muted pastel style filter to the entire page*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    opacity: 95%;
 }
 
+/* Changed to a muted pastel grey-blue to make the page less glaring to the eye in the margins*/
 body {
-    background-color: #d9dcd6;
+    background-color: #8cbccc;
 }
 
 a {
     color: #ffffff;
     text-decoration: none;
+
 }
 
-/* added this block with a pseudo-selector to give some nice visual feedback when hovering over the link anchors.3
-   Paid specific attention to the colour to ensure it was well contrasted with the header background, was easy to read and maintained the pastel style for the colourings*/
+/* added this block with a pseudo-selector to give some nice visual feedback when hovering over the link anchors. 
+   Paid specific attention to the colour to ensure it was well contrasted with the header background, was easy to read and maintained the pastel style for the header colourings*/
 a:hover {
-    color:#c41750;
+    color:#ff0000;
+
 }
 
 p {
@@ -27,10 +32,11 @@ p {
 
 /* styles arranged to be concordant with the html layout */
 /* styles here changed to target ids to make the selctors easier to understand and named to be more informative of their divs function */
+/* Adjusted the color to be more consistently themed with the other colours on the page*/
 #header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
+    background-color: #1b6d96;
     color: #ffffff;
 }
 
@@ -66,6 +72,7 @@ p {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
+    z-index: -1;
 }
 
 /*  container stylings added here to make the page appear better lined up and omproved the balancing of the margins around the content and aside; easier on the eye  */
