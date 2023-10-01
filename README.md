@@ -29,6 +29,8 @@ Difficulty: Very Easy :-
 Clone the repository to a folder in your local machine with this code in your terminal -->  git clone git@github.com:kevinstaresdarbon/Horiseon_Task-Accessibility_Refactor.git  <--
 and then drag the index.html into your browser's url bar to run it in your browser using the file protocol.
 
+Alternatively if you just want to view the page you can follow this link to the github pages deployment: https://kevinstaresdarbon.github.io/Horiseon_Task-Accessibility_Refactor/
+
 
 ## Credits
 
@@ -36,7 +38,7 @@ The starter code at the initial commit, including the image files, HTML and CSS,
 All commits after that is a refactor of the original code push by myself.  No collaboration was needed or taken on this repository and code.
 
 I added the favicon.ico file myself but generated it using the image from this page: https://www.iconarchive.com/show/essential-toolbar-icons-by-fasticon/find-icon.html
-and converted it to an .ico using this site: https://www.icoconverter.com/  The site is self-explanatory and easy to use.
+I converted it to an .ico using this self-explanatory and easy to use site: https://www.icoconverter.com/ 
 
 The template and advice for this README was taken from this site: https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
 
@@ -48,4 +50,4 @@ https://www.accessibility.com/blog/what-are-best-practices-for-creating-alt-text
 
 ## License
 
-MIT License citation supplied in the LICENCE file in the root folder
+MIT License citation can be found [Here](./LICENSE).
