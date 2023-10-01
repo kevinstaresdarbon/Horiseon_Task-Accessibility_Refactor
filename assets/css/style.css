@@ -1,6 +1,6 @@
-/* Element selectors re-arranged to appear together at the top of the css file*/
+/* Element selectors re-arranged to appear together at the top of the css file */
 
-/* added a 95% opacity to tone down the glare in the images and give a more muted pastel style filter to the entire page*/
+/* added a 96% opacity to tone down the glare in the images and give a more muted pastel style filter to the entire page */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,7 +8,7 @@
     opacity: 96%;
 }
 
-/* Changed to a muted pastel grey-blue to make the page less glaring to the eye in the margins*/
+/* Changed the background color to a muted pastel grey-blue to make the page less glaring to the eye in the margins */
 body {
     background-color: #8cbccc;
 }
@@ -16,14 +16,12 @@ body {
 a {
     color: #ffffff;
     text-decoration: none;
-
 }
 
 /* added this block with a pseudo-selector to give some nice visual feedback when hovering over the link anchors. 
-   Paid specific attention to the colour to ensure it was well contrasted with the header background, was easy to read and maintained the pastel style for the header colourings*/
+   Paid specific attention to the color to ensure it was well contrasted with the header background, was easy to read and maintained the pastel style for the header colourings */
 a:hover {
     color:#b863fd;
-
 }
 
 p {
@@ -32,7 +30,7 @@ p {
 
 /* styles arranged to be concordant with the html layout */
 /* styles here changed to target ids to make the selctors easier to understand and named to be more informative of their divs function */
-/* Adjusted the color to be more consistently themed with the other colours on the page*/
+/* Adjusted the color to be more consistently themed with the other colours on the page */
 #header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -88,7 +86,7 @@ p {
     margin-left: 20px;
 }
 
-/*  Consolidated three blocks into this one class and added a slight 4px border-radius to soften the feel of the containing background  */
+/*  Consolidated three blocks into this one class and added a slight 4px border-radius to soften the corners of the containing background  */
 .card-style {
     margin-bottom: 20px;
     padding: 50px;
@@ -99,14 +97,14 @@ p {
     border-radius: 4px;
 }
 
-/* Consolidated three blocks into this one class*/
+/* Consolidated three blocks into this one class */
 .h2-style {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
 /*  Adjusted the height field to a fixed height in px so that it always lines up nicely with content section 
-    and added a slight 4px border-radius to soften the feel of the containing background  */
+    and added a slight 4px border-radius to soften the corners of the containing background  */
 .benefits {
     margin-right: 20px;
     margin-bottom: 20px;
@@ -120,26 +118,26 @@ p {
     border-radius: 4px;
 }
 
-/* Consolidated three blocks into this one class*/
+/* Consolidated three blocks into this one class */
 .benefit-item {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-/* Consolidated three blocks into this one class*/
+/* Consolidated three blocks into this one class */
 .benefit-h3-style{
     margin-bottom: 10px;
     text-align: center;
 }
 
-/* Consolidated three blocks into this one class*/
+/* Consolidated three blocks into this one class */
 .benefit-img-style{
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-/* changed the footer selector from class to id so that it has a consistent coding style with the header*/
+/* changed the footer selector from class to an id so that it has a consistent coding style with the header */
 #footer {
     padding: 30px;
     clear: both;
