@@ -27,7 +27,12 @@ I have also learned about the importance of using semantic tags when appropriate
 Difficulty: Very Easy :-  
   
 Clone the repository to a folder in your local machine with this code in your terminal  
--->  git clone git@github.com:kevinstaresdarbon/Horiseon_Task-Accessibility_Refactor.git  <--  
+  
+```Clone my public repository```  
+``` 
+git clone git@github.com:kevinstaresdarbon/Horiseon_Task-Accessibility_Refactor.git 
+```  
+  
 and then drag the index.html into your browser's url bar to run it in your browser using the file protocol.  
   
 Alternatively if you just want to view the page you can follow this link to the github pages deployment:  
